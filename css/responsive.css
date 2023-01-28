@@ -1,0 +1,426 @@
+/* contact page reponsive css  */
+
+@media screen and (max-width: 1024px){
+    .menu a{
+        font-size: 14px;
+    }
+    .number i{
+        font-size: 14px;
+    }
+    .number i span{
+        font-size: 14px;
+    }
+    .sign a{
+        font-size: 14px;
+    }
+    .ssl-msg-text {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .menu{
+        display: none;
+    }
+    .hamburger-menu{
+        display: block;
+    }
+
+    .menu-right {
+        padding-top: 20px;
+    }
+    .contact-img {
+        width: 100%;
+        height: 250px;
+    }
+    .contact-text{
+        top:16%;
+    }
+    .card-content {
+        padding: 0 0 20px 0;
+        font-size: 16px;
+    }
+    .card-Name {
+        margin-top:0;
+    }
+    .ssl-box {
+        justify-content: center;
+        padding: 4% 0;
+        gap: 20px;
+    }
+    .copyright {
+        display: block;
+    }
+    .ssl-box1 {
+        padding: 5px 0;
+    }  
+}
+
+@media screen and (max-width:425px){
+    .number {
+        font-size: 12px;
+    }
+    .sign a{
+        font-size: 12px;
+    }
+    .contact-img {
+        height: 250px;
+    }
+    .ssl-box-pad {
+        padding-bottom: 10px;
+    }
+    .wrapper-col {
+        padding: 10px 0 10px 20px;
+    }
+    .contact-img {
+        height: 300px;
+    }
+    .v-card{
+        padding: 10px;
+   }
+   .vna-section-row {
+    padding:  0;
+    }
+    .choose {
+        padding: 0;
+    }
+    .deploy-row{
+        padding: 0pc;
+    }
+}
+
+/* cloud page responsive css starts  */
+
+@media screen and (max-width:1024px){
+    .cloud-img {
+        width: 100%!important;
+    }
+    .vps-why-text {
+        padding: 0!important;
+    }
+    .vps-img{
+        width: 80%!important;
+    }
+    .public-cloud-hosting {
+        min-height: 280px;
+    }
+}
+
+@media screen and (max-width:768px){
+    .cloud-btn {
+        display: -webkit-inline-box!important;
+    }
+    .search-btn a {
+        font-size: 16px!important;
+    }
+    .cloud-banner-wrapper{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .cloud-img{
+        width: 100% !important;
+    }
+    .table-font{
+        font-size: 13px !important;
+    }
+    .public-cloud-hosting{
+        min-height: 190px!important;
+    }
+    .vna-card{
+        min-height: 170px;
+        padding: 20px 0;
+    }
+    .copyright {
+        display: block!important;
+    }
+}
+
+@media screen and (max-width:425px) {
+        .cloud-text {
+            margin: 0 0 1% 10%;
+    }
+}
+
+/* web-hosting respnsive css  */
+@media screen and (max-width:1024px) {
+     .domain-content {
+        min-height: 145px;
+    }
+    .domain-div {
+        min-height: 775px;
+    } 
+}
+@media screen and (max-width:768px) {
+    .web-content {
+        padding: 10px 0;
+        font-size: 16px;
+    }
+    .domain-content {
+        min-height: 95px;
+    }
+    .domain-div {
+        min-height: 700px;
+    } 
+    .web-hosting-wrap {
+        padding: 10px 0;
+    }
+    .web-cloud {
+        min-height: 266px;
+    }
+    .why-text{
+        margin: 15px 0 7px 0;
+    }
+    .why-detail{
+        font-size: 20px;
+    }
+    .public-cloud-start {
+        min-height: 300px;
+    }
+    .deploy-row{
+        padding: 0;
+    }
+    .web-reliable-img {
+        width: 70%;
+    }
+    .linux-table {
+        font-size: 14px;
+    }
+    .cheap-title {
+        font-size: 25px;
+    }
+    .linux-head{
+        font-size: 25px;
+    }
+    .operating-head{
+        font-size: 25px;
+    }
+    .accordion-button {
+        font-size: 16px;
+    }
+    .accordion-body {
+        font-size: 16px;
+    }
+
+}
+
+@media screen and (max-width:426px) {
+    .domain-div {
+        min-height: auto;
+    }
+    .domain-content {
+        min-height: auto;
+    }
+    .domain-img-wrap {
+        padding-top:10%;
+    }
+    .domain-banner-img {
+        width: 90%;
+    }
+    .search-btn a {
+        font-size: 14px!important;
+    }
+    .public-cloud-start {
+        min-height: 185px;
+    }
+    .client-icon-wrap {
+        padding: 10px;
+    }
+    .best-vna-wrap {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .operating{
+        padding: 30px 0;
+    }
+    .deploy-row{
+        padding: 0;
+    }
+}
+
+/* dedicated page  */
+@media screen and (max-width:1024px) {
+    .dedicated-text{
+        top: 25%;
+    }
+    .why-dedicated-text1 {
+        min-height: 265px;
+    }
+}
+@media screen and (max-width:768px) {
+    .why-dedicated-text1 {
+        min-height: 185px;
+    }
+    .table-font{
+        font-size: 12px;
+    }
+    .box-content {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width:468px) {
+    .why-dedicated-text1 {
+        min-height: 155px;
+    }
+
+    .dedicated-text {
+        top: 15%;
+    }
+    .col-card {
+        padding-top: 4%;
+    }
+}
+
+/* responsive ssl css starts here  */
+
+
+@media screen and (max-width:1025px) {
+    .domain-cloud {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+    }
+    .left-banner{
+        padding: 16px 25px;
+    }
+    .filter{
+        gap:8px;
+    }
+    .lower {
+        min-height: 155px;
+    }
+    
+    /* .vna-card{
+        min-height: 320px;
+    } */
+    .ssl-card {
+        min-height: 350px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .responsive-banner{
+        padding:2% 0;
+    }
+    .row-div{
+        padding: 0;
+    }
+    .commodo-card-wrap {
+        padding: 0 0 20px 0;
+    }
+    .ssl-card{
+        min-height: 440px!important;
+    }
+}
+
+@media screen and (max-width:468px) {
+    .left-banner{
+        display: block;
+    } 
+    .ssl-card {
+        min-height: 230px!important;
+    }
+}
+/* domain page   */
+
+
+/* index home page,css  */
+@media screen and (max-width:1025px){
+    .co {
+        width: 60px;
+    }
+    /* .wrapp{
+      display: none;
+    } */
+    .left-banner{
+        min-height: 300px;
+    }
+    .left-hero{
+        padding: 0;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .wrapp {
+         padding: 0;
+         display: none;
+    }
+    .map-1 {
+        padding: 0;
+        gap: 10px;
+    }
+    .operating-left {
+        /* padding: 6%; */
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .map-text{
+        font-size: 15px;
+    }
+    .operating-left {
+        padding: 6% 0;
+    }
+    .right-hero{
+        width:100%;
+    }
+    .mid-name {
+        width: 80%;
+    }
+    .map-col{
+        margin-top:10px;
+    }
+    .trusted-title {
+        font-size: 25px;
+    }
+   .tru-text{
+    font-size: 25px;
+    padding: 2%;
+   }
+}
+
+@media screen and (max-width:427px) {
+    .search-btn a{
+        padding: 11px 22px;
+    }
+    .product-card{
+        padding: 0 0 15px 0;
+    }
+    .product-content{
+        padding: 0;
+        font-size: 16px;
+    }
+    .operating-img{
+        width:120px;
+    }
+    .operating-head {
+        font-size: 20px;
+    }
+    .operating-flex{
+        display:block;
+    }
+    .operating-left {
+        display: block;
+    }
+    .map-1{
+        padding: 10px 0;
+    }
+    .mid-name {
+        width: 100%;
+    }
+    /* .col-1-5 {
+        width: 50%;
+    } */
+}
+
+
+@media screen and (max-width:425px){
+    .new-row{
+        display: grid;
+        place-content: center;
+        gap: 25px;
+    }
+}

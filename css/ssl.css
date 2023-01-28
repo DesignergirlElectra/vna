@@ -1,0 +1,718 @@
+/* ssl page css  */
+*{
+    margin: 0;
+    padding: 0;
+}
+.ssl {
+    width: 300px;
+}
+.ssl img{
+    width:100%;
+}
+.certi{
+    padding: 30px 0;
+}
+.cheap{
+    text-align: center;
+}
+.ssl-card{
+    background: linear-gradient(45deg, #8f96acba,transparent);
+    padding: 15px;
+    border-radius: 10px;
+}
+.cheap-title{
+        font-size: 30px;
+        font-weight: 700;
+}
+.cheap-detail{
+    font-size: 20px;
+    color: #8f96ac;
+}
+.cheap-detail span{
+    font-weight: 500;
+}
+/* fiter part  */
+
+.filter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    padding-top: 20px;
+}
+.reset-all a{ 
+        text-decoration: none;
+        position: relative;
+        color: #0650a0;
+        cursor: pointer;
+}
+.dropdown-toggle::after {
+    margin-left: 4rem;
+}
+.btn-secondary {
+    color: #000;
+    background-color: #fff;
+    border-color: #8696ac;
+    font-size: 18px;
+    font-weight: 500;
+}
+.check {
+    margin-right: 10px;
+}
+
+/* cards */
+.upper-title {
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.empty-gap {
+    min-height: 80px;
+}
+.card.commodo-card {
+    padding:20px 0 0 0;
+}
+.price {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
+}
+.old-price {
+    font-size: 18px;
+    font-weight: 500;
+    color: #626365;
+    text-decoration: line-through;
+    padding-right: 10px;
+}
+.new-price {
+    font-size: 30px;
+    font-weight: 600;
+    color: #000;
+}
+.buy-btn {
+    padding: 25px 0;
+}
+.buy-btn a {
+    text-decoration: none;
+    background: #008080;
+    color: white!important;
+    padding: 8px 15px;
+    border-radius: 20px;
+}
+.buy-btn a:hover{
+    background-color: transparent;
+    transition: all .15s ease-in-out;
+    background-color: transparent;
+    color: #008080!important; 
+    border: 2px solid #008080 ;      
+}
+.lower {
+    background: #8f96ac1f;
+    padding: 10px 0;
+    color: #8f96ac;
+}
+.lower ul{
+    padding: 0;
+}
+.lower li{
+    list-style: none;
+}
+.row-div{
+    padding-top: 30px;
+}
+.load {
+    padding-top: 4%!important;
+}
+.load a{
+    padding: 10px 20px!important;
+}
+/* why choose vna css  */
+.vna-section-row{
+    padding: 10px 0;
+}
+.vna-text{
+    padding: 10px;
+}
+.vna-card-img {
+    margin-top: 20px;
+}
+.vna-title {
+    padding: 10px 0;
+    font-size: 20px;
+    font-weight: 600;
+}
+.vna-content {
+    font-size: 20px;
+    color: white;
+}
+.vna-card {
+    padding: 20px 0;
+}
+.choose-card{
+    background: linear-gradient(45deg, #8f96acba,transparent);
+    padding: 15px;
+    border-radius: 10px;
+}
+
+/* fAQ SECTION CSS*/
+.accordion-item {
+    margin: 15px;
+    border: 1px solid grey;
+    border-radius: 10px;
+}
+.accordion-body {
+    font-size: 20px;
+    color: #8f96ac;
+}
+.accordion-button {
+    font-size: 20px;
+    border-radius: 10px;
+    border: 1px solid grey;
+}
+.accordion-button:focus{
+    border-color: grey;
+    box-shadow: none;
+}
+.accordion-item:first-of-type .accordion-button{
+    border-radius: 10px!important;
+}
+.accordion-item:last-of-type .accordion-button{
+    border-radius: 10px!important;
+}
+.accordion-item:first-of-type,.accordion-item:last-of-type{
+    border-radius: 10px!important;
+}
+.accordion-button:not(.collapsed) {
+    background-color:transparent!important;
+    color: black;
+    box-shadow: none;
+}
+
+
+/* contact page css  */
+/* contact-banner css  */
+.contact-padding{
+    padding: 0;
+}
+.contact-banner{
+    z-index: -1;
+    position: relative;
+}
+.contact-img{
+    height: 250px;
+    width: 100%;
+}
+.contact-img img{
+    width: 100%;
+    height: 100%;
+}
+.contact-text {
+    position: absolute;
+    top: 21%;
+    color: #fff;
+    left: 5%;
+}
+.contact-support {
+    font-size: 20px;
+}
+.contact-head {
+    padding: 10px 0;
+    font-size: 40px;
+    font-weight: 700;
+}
+.contact-content {
+    font-size: 20px;
+}
+
+/* support query form css */
+
+.ssl-support-head {
+    font-size: 30px;
+    font-weight: 700;
+}
+.ssl-support-content {
+    font-size: 20px;
+    color: #8f96ac;
+    padding: 10px 0;
+}
+.ssl-box {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 4% 0;
+}
+.ssl-box1 {
+    display: flex;
+    align-items: center;
+    border: 1px solid #8f96ac;
+    padding: 10px;
+    border-radius: 20px;
+}
+.ssl-msg-text {
+    padding-right: 15px;
+}
+.ssl-chat {
+    font-weight: 700;
+}
+.ssl-msg-icon i {
+    padding: 20px;
+    font-size: 25px;
+}
+/* form csss  */
+.form-contact {
+    padding: 10px;
+}
+input[type=text],input[type=email], select, textarea {
+    width: 100%; /* Full width */
+    padding: 10px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 10px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+    margin: 10px 0;
+  }
+  .input-control {
+    margin: 15px 0;
+}
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  .request-btn {
+    margin-top: 20px;
+}
+.request-btn a:hover {
+    background: white!important;
+}
+  .submit {
+    float: right;
+    padding-top: 10%;
+}
+
+/* address  css  */
+.address-section {
+    background: #b3b7c61c;
+}
+.address-title {
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+}
+.address-main {
+    padding-top: 10px;
+    display: flex;
+    gap: 20px;
+}
+/* trusted section  */
+.trust-center{
+    text-align: center;
+    max-width: 100%!important;
+}
+
+/* ***************** dedicated page css starts ***************************** */
+.table-dedicated{
+    text-align: center;
+    margin-top: 2%;
+}
+.dedicated-wrap {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.dedicated-text {
+    text-align: center;
+    position: absolute;
+    top: 23%;
+    /* left: 12%; */
+    color: white;
+}
+ .dedicated-head {
+        font-size: 30px;
+        font-weight: 700;
+        padding: 3% 0;
+  }
+  .dedicated-title{
+    font-size: 30px;
+}
+ .dedicated-content {
+        padding: 10px 0 20px 0;
+        font-size: 20px;
+ }
+ .table>:not(caption)>*>* {
+    padding: 0.75rem 1rem;
+}
+
+.row.consult-row {
+    padding: 20px 0;
+}
+.consult-img{
+    width: 100%;
+}
+.consult-img img {
+    width: 100%;
+}
+.form-use {
+    border: none;
+    background: transparent;
+}
+.request-btn a{
+    padding: 10px 30px!important;
+}
+.why-text{
+    padding: 15px;
+    margin:10px 0;
+    text-align: left;
+    border-radius: 10px;
+}
+.why-title {
+    font-size: 20px;
+    font-weight: 600;
+}
+.why-detail{
+    line-height: initial;
+    padding: 10px 0;
+    font-weight: 200;
+    font-size: 20px;
+}
+.feature-row {
+    padding: 2%;
+}
+.card-row {
+    padding: 2%;
+}
+.feature-box{
+    text-align: center;
+    font-size: 20px;
+}
+.feature-wrap{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.feature-img {
+    width: 80%;
+}
+.feature-img img{
+    width: 100%;
+}
+
+.my-textarea{
+    padding: 20px 10px;
+}
+.choose {
+    margin: 10px 0;
+}
+
+/* CLOUD HOSTING PAGE CSS STARTS */
+/* banner css */
+.cloud-text {
+    text-align: left;
+    margin: 0 0 1% 15%;
+}
+.cloud-btn {
+    display: flex;
+    padding: 10px 0;
+    gap: 10px;
+}
+.cloud-img{
+    width: 55%;
+}
+.cloud-wrap-class {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cloud-img img{
+    width: 100%;
+}
+/* vps css */
+.vps-text {
+    margin: 0 2%;
+}
+.vps-row {
+    padding: 2% 0;
+}
+.vps-img{
+    width: 80%;
+}
+.vps-img img{
+    width: 100%;
+}
+.vps-wrap-class {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* deploy css  */
+.centos {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+}
+.deploy-row {
+    padding: 2% 0;
+}
+.centos a {
+    text-decoration: none;
+    color: black;
+    transform: scale(1);
+}
+.centos a:hover {
+    color: #1f2f98;
+    transform: scale(2);
+}
+.deploy-bottom-head {
+    padding: 1% 0;
+    font-size: 20px;
+    font-weight: 600;
+}
+.deploy-content{
+    padding-bottom: 2%;
+}
+.deploy-text {
+    padding: 0 2%;
+}
+.deploy-img {
+    width: 85%;
+}
+.deploy-img img{
+    width: 100%;
+}
+/* public css  */
+.public-section{
+    padding:10px;
+}
+.public-cloud-hosting{
+    background: linear-gradient(45deg, #8f96acba,transparent);
+    padding: 15px;
+    border-radius: 10px;
+}
+.public-text{
+    font-size: 20px;
+
+}
+.public-title{
+    padding: 2% 0;
+}
+.public-content {
+    font-weight: 300;
+}
+/* CLOUD HOSTING PAGE CSS endS */
+
+/* Domain page css starts  */
+.domain {
+    padding: 2% 0;
+}
+.domain-banner {
+    background: linear-gradient(45deg, #1f2f98, #8ecae6);
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
+.domain-banner-img {
+    width: 100%;
+}
+.domain-img-wrap {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.domain-banner-img img{
+    width: 100%;
+}
+.domain-card{
+    padding: 2% 0;
+}
+/* card css  */
+.domain-card-logo {
+    text-align: center;
+}
+.public-cloud-start{
+    background: linear-gradient(45deg, #8f96acba,transparent);
+    padding: 15px;
+    border-radius: 10px;
+}
+.domain-cloud {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    height: 100%;
+}
+.register-btn{
+    text-align: center;
+}
+/* policy section css  */
+.policy-row {
+    padding: 2% 0;
+}
+.policy-head {
+    font-size: 20px;
+    font-weight: 700;
+}
+.policy-detail {
+    font-size: 20px;
+    padding: 3% 0;
+}
+.right-part {
+    padding: 5% 3%;
+}
+.policy-img {
+    width: 80%;
+}
+.policy-img img {
+    width: 100%;
+}
+.domain-card-logo {
+    text-align: center;
+    width: 100px;
+}
+.domain-card-logo img{
+    width:100%;
+}
+
+/* web hosting css sstarts  */
+.web-cloud{
+    background: linear-gradient(45deg, #8f96acba,transparent);
+    padding: 15px;
+    border-radius: 10px;
+}
+.domain-div {
+    min-height: 655px;
+}
+.domain-special {
+    background: aliceblue;
+    padding: 10px 0;
+    text-align: center;
+}
+.domain-content {
+    min-height: 100px;
+}
+.domain-part{
+    text-align: center;
+}
+.public-cloud{
+    background: linear-gradient(45deg, #8f96acba,transparent);
+    padding: 15px;
+    border-radius: 10px;
+}
+.domain-head {
+    font-size: 20px;
+    font-weight: 700;
+}
+.web-content{
+    padding: 10px 0;
+    line-height: initial;
+    color:#8f96ac;
+}
+.domain-below{
+    color: #8f96ac;
+}
+.domain-small {
+    line-height: initial;
+    font-size: 12px;
+    padding: 10px 0;
+    color: #8f96ac;
+}
+.below ul {
+    padding: 0;
+    list-style: none;
+}
+.below ul li{
+    text-align: center;
+    font-weight: 500;
+}
+.below ul li span{
+    color:#8f96ac;
+    font-weight: initial;
+}
+.detailed{
+    text-align: center;
+}
+/* what makes vna best one host section */
+.best{
+    font-weight: initial;
+    color: #8f96ac;
+    padding: 0!important;
+}
+.best-img {
+    width: 50%;
+}
+.best-img img{
+    width: 100%;
+}
+.vps-wrap{
+    padding: 0!important;
+}
+.fast{
+    font-size: 20px;
+    font-weight: 700;
+    padding: 0 4%;
+}
+.web-reliable-wrap {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    justify-content: center;
+}
+.web-reliable-img{
+    width: 100%;
+}
+.web-reliable-img img{
+    width:100%;
+}
+.client-icon{
+    width: 80%;
+}
+.client-icon img{
+    width:100%;
+}
+/* linux plan css  */
+.linux-plan{
+    padding: 30px 0;
+    background: #8f96ac12;
+}
+.plan a:hover{
+    background-color: white!important;
+}
+.linux-head {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+}
+.table-dedicated{
+    overflow: scroll;
+}
+
+.linux-table {
+    margin-top: 10px;
+    text-align: center;
+}
+
+
+/* dedicated css  */
+/* .dedicated-cloud {
+    background: linear-gradient(45deg, #8f96acba,transparent);
+    padding: 15px;
+    border-radius: 10px;
+} */
+.why-dedicated-text1 {
+    background: linear-gradient(45deg, #8f96acba,transparent);
+    padding: 15px;
+    border-radius: 10px;
+}
